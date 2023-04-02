@@ -1,1 +1,16 @@
-          Convert Number Into Words
+ Convert Number Into Words
+
+
+ => First step  will take user input
+
+=> Second step will find out the user input length
+
+=> Third step will create two array values. one array value is 1 to 19 English words and the second array value is 20 to 90 English words
+
+=> The fourth step we will take an empty string variable
+
+=> fifth step we will write the if condition and check the nth position.
+
+=> Once the condition is true, That time we will push the value in the empty string variable and will use the recursion function 
+
+=> Sixth step It will complete the all input value length, then we will print the string variable

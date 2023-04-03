@@ -1,1 +1,15 @@
           Convert Number Into Words
+
+
+
+
+1) First it creates arrays.One should contain word representation of numbers from 1 to 19.
+2) Another array should contain word representation ofmultiples of 10 up to 90.
+3) It will check the length of the number. 
+4) It creates a function that takes a number and returns its word representation.
+5) Inside the function, if the number is greater than or equalto 1000, divide the number with 1000, add "thousand" to the word representation.
+6) This is the repeated procedure
+7) If the next number is greater than or equal to 100, divide the number with 100, add "hundred" to the word representation.
+8) If the remainder is greater than 0, add the word "and" to the word representation.
+9) If the remainder is greater than or equal to 20, divide the remainder by 10 and add the word representation of the quotient from the second array.
+10) If the remainder of the division in step 11 is greater than 0, add the word representation of the remainder from the first array.

@@ -1,1 +1,22 @@
           Convert Number Into Words
+
+Convert Number Into Words
+
+1) first we have to take a input through calling function and function receives that input
+2) and we take 2 arrays one is included 1 to 9 numbers with Words another array included 11 to 20 and 30, 40 
+   .....90 with words.
+
+3) we wil check the input number with the if conditions
+   a) if the number is < 10 it returns the assigned value from array 1
+   b)  if the number is < 20 it returns the assigned value from array 2
+   c) if the number is < 100 we should divide the input number with 10 If the remainder is greater than
+   Zero. Then subtract the remainder from input value then check the both reminder and subtracted 
+   values from arrays and return result with concatenation.
+   else  it returns the assigned value from array 2
+   d) if the number is < 1000 we should divide the input number with 100 If the remainder is greater 
+   than Zero. Then return and subtract the remainder from input value then divide again with 100 now, 
+   check that result value with the arrays and return hundredth value then send the remainder value to 
+   the same function again(recursion process).
+   else  it returns the assigned value from array 1
+4) if the input value is greater than 1000 then directly go to return statement with related output.
+5) After these, it will exit the function and go to print the statement with the result.
